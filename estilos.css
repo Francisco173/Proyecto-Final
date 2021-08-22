@@ -1,0 +1,1944 @@
+    *{
+        margin:0;
+        padding:0;  
+    }
+    body{
+        background-image: linear-gradient(to bottom, white 100px, rgb(241, 228, 154), rgb(248, 231, 133), rgb(255, 215, 0),rgb(255, 211, 2),  rgb(247, 217, 0), rgb(224, 191, 0), rgb(240, 189, 12), rgb(220, 171, 16), rgb(199, 142, 11), rgb(179, 128, 3), rgb(165, 100, 10), rgb(140, 82, 0), rgb(115, 58, 3));
+        font-size: 16px;
+    }
+    h2 {
+        color:#7ede00;
+    }
+    legend{
+        color: black;
+        -webkit-text-stroke: 0.5px black;
+        font-size: 150%;
+        border: solid black;
+        background-color: rgba(172, 255, 47, 0.452);
+    }
+    a:hover {
+        color: rgb(0, 216, 112);
+    }
+    /*--------HEADER-------*/
+    /*LOGO*/
+    .titulos{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 68.75rem;
+        margin-left: 2.5rem;
+    }
+    .logoYEslogan{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: black;
+        border: 0.625em solid rgb(57, 131, 50);
+        border-radius: 10px;
+        width: 20.625em;
+        background-color: #75b445c7;
+        margin: 1.875em;
+    }
+    .logo{
+        font-size: 5em;
+        font-family: 'Lobster';
+        text-align: center;
+    }
+    .eslogan{
+        color:#7ede00; 
+        font-weight: normal;
+        font-family: 'Oswald';  
+        border: solid #00000000;
+        background-color: #00000077;
+        border-radius: 30px;
+        font-size: 1.25em;
+    }
+    .logo2YEslogan2{
+        display:flex;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.171);
+        border-radius:50px;
+    }
+    .radio{
+        border-radius: 10px;
+    }
+    .eslogan2{
+        color:#7ede00; 
+        font-weight: normal;
+        font-family: 'Oswald';
+        border: solid #00000000;
+        background-color: #000000b2;
+        width: 10em;
+        text-align: center;
+        margin-left: 0.312em;
+        font-size: 1.25em;
+    }
+    /*FIN LOGO*/
+
+    /*NAV*/
+    nav{
+        display: flex; 
+    }
+    nav ul {
+        list-style: none;
+        text-decoration: none;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 0 0 20px 20px;
+        width: 75rem;  
+        height: 2.6875rem;   
+        background-color: black; 
+        padding: 0.125em;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 4.375rem;
+    }
+    nav li  {
+        font-size: 1.0625rem; 
+        color: black;  
+        display: flex;
+        justify-content: space-between;
+    }
+    nav a {
+        text-decoration: none;
+        padding: 0.25em;
+        color:greenyellow;   
+    }
+    nav ul li a:hover {   
+        color: #00ff22;
+        transition: color .5s;
+        font-size: 1.0625rem;  
+    }
+    .subMenu{
+        display: none;
+        position: absolute;
+        width: 11.87em; 
+        letter-spacing: 120%;
+        padding: 0.437em;
+        margin-top: 1.875em; 
+        border-width: 2px;
+        text-align: center; 
+        z-index:5;
+        text-decoration: none; 
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 0 0 20px 20px;  
+        height: 11.875rem;   
+        background-color: black; 
+        border-top: none;   
+        margin-left:-0.350rem  
+    }
+    nav li:hover .subMenu{
+        display: block;
+    }
+    .verdeBorde {
+        color:black;
+        font-weight:bold;
+        -webkit-text-stroke: 0.7px green;
+        letter-spacing: 2px;
+    }
+    .dropdown{
+        display: none;
+    }  
+    /*FIN NAV*/
+    /*--------FIN HEADER-------*/
+
+    /*--------INDEX-------*/
+    .informacionCalidad{
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 0.5%;
+        margin: 1.562rem;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 68.75em;
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        align-items: center;
+        margin-left: 7.5rem;
+        position:relative; z-index:-1;
+    }
+    .imgSize{ 
+        width: 46.875em; 
+        height: 25em;
+    }
+    .calidadTextosFlex{
+        display: flex;
+        flex-direction: column;
+    }
+    .informacionCalidadTitulo{
+        font-weight: bold;
+        font-size:130%;
+    }
+    .informacionCalidadTexto{
+        font-size: 1.0625em;
+        line-height : 25px;
+    }
+
+    .tiendaHubicacion{
+        margin-top: -9.375rem;
+        margin-bottom: -9.375rem;
+    }
+    .tiendaIndex{
+        display:flex;
+        flex-wrap: row nowrap;
+        margin-left: 10.550rem;
+    }
+    .tienda{
+        display: flex;
+        flex-direction: column;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 5px;
+        width: 20.625rem;
+        background-color: #77ca37c7; 
+        font-family: 'Noto Sans'; 
+        text-align: center;
+        margin-left: 8rem;
+    }
+    .imagenCervezaIndex{
+        border-radius: 20px;
+        border: solid green 5px;
+        width:34.3125rem;
+        height:29.375rem;
+        margin-top: 2.1875rem;
+    }
+    .itemsTienda{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        color:black;
+        font-weight:bold;
+        -webkit-text-stroke: 0.7px green;
+        letter-spacing: 2px;
+        margin-bottom: 0.9375em; 
+        margin-top: 0.9375em;
+    }
+    .botonTienda{
+        color:black;
+        font-weight:bold;
+        -webkit-text-stroke: 2px green;
+        letter-spacing: 2px;
+        font-size: 200%;
+        width:9.375rem ;
+        margin-left: 5.5rem;
+        margin-top: 0.625rem;  
+    }
+
+    .hubicacionMasVendido{
+        margin-bottom: -15.125rem;
+        margin-top: -1.25rem;
+    }
+    .masVendido{
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 0.5%;
+        margin: 1.5625rem;
+        margin-bottom: -3.75rem; 
+        font-weight: bold;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 47.5rem;
+        height: 27.75rem;
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        align-items: center;
+        transform: translate(16.90em, -9.25rem);
+    }
+    .fotoMasVendido{
+        border-radius: 30%;
+        width: 20em;
+        height: 20em;
+    }
+    .masVendidoTextoFlex{
+        display: flex;
+        flex-direction: column;
+    }
+    .masVendidoTitulo{
+        font-weight: bold;
+        font-size:150%;
+        margin-top: 3.125rem;
+    }
+    .masVendidoTexto{
+        font-size: 1rem;
+        font-weight: bold;
+        line-height : 25px;
+        margin: 1.875em;
+        transform: translate(0px, -2.5em);
+    }
+
+    .comentariosHubicacion{
+        margin-top: -11.875rem;
+        margin-bottom: -11.875rem;
+        margin-left: 0.8125rem;
+    }
+    .comentarios{
+        margin: 1.25rem;
+        padding: 0.6%;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 25rem;
+        background-color: #77ca37c7;   
+        margin-left:29.125rem; 
+    }
+    .tituloComentarios{
+        color:black;
+        font-family: 'Noto Sans';
+    }
+    .comentariosHubicacionTexto{
+        margin-left: -0.25rem;
+    }
+    .textareaSize{
+        width: 370px;
+    }
+    .resaltar{ 
+        font-size:130%;
+    }
+    .lineaSeparadora{
+        width: 76.25rem;
+        height: 0.625rem;
+        border: 0.125rem solid gray; 
+        background-color: rgba(0, 0, 0, 0.171) ;
+        border-radius: 15px;
+        margin-left: 3.75rem;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+    .lineaDecorativa1{
+        transform: translate(-20.375rem, 193%) rotate(90deg) scale(0.65);   
+    }
+    .lineaDecorativa2{
+        transform: translate(48.400rem, -180%) rotate(270deg) scale(0.65) scaleX(-1);   
+    }
+    .lineaDecorativa3{
+        transform: translate(-14.375rem, 105%) rotate(90deg) scale(0.5);   
+    }
+    .lineaDecorativa4{
+        transform: translate(42.400rem, -200%) rotate(270deg) scale(0.5) scaleX(-1);   
+    }
+    .lineaDecorativa5{
+        transform: translate(-10.625rem, 208%) rotate(90deg) scale(0.7);   
+    }
+    .lineaDecorativa6{
+        transform: translate(37rem, -228%) rotate(270deg) scale(0.7) scaleX(-1);    
+    }
+    .lineaDecorativa7{
+        transform: translate(-10.625rem, 222%) rotate(90deg) scale(0.75);   
+    }
+    .lineaDecorativa8{
+        transform: translate(37rem, -218%) rotate(270deg) scale(0.75) scaleX(-1); 
+    }
+    /*--------FIN INDEX-------*/
+
+    /*--------CONOCE-NUESTROS-ESTILOS-------*/
+    .encabezados{
+        display: flex;
+       justify-content: center;
+    }
+    .secciones{  
+        color: rgb(2, 87, 2);
+        font-size: 3.75rem;
+        border: 1px solid black;
+        background-color: rgba(255, 255, 255, 0.623) ;
+        text-align: center;
+        border-radius: 15%;
+        margin-left: 1.125rem;
+        margin-top: 3.125rem;
+    }
+    .padreFlex{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .card{
+        padding: 0.5%;
+        margin: 1.5625rem;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 48.125rem; 
+        height: auto;
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        font-size: 1.0625rem;
+        margin-left: 2.5625rem;
+        align-items: center
+    }
+    .fotoEstilos{
+        width:425px; 
+        height:330px;
+    }
+
+    .infoTiendaDisplay{
+        display: none;
+    }
+    .accordion-item{
+        width: 16.4375em;
+        margin-top: 1.875em;
+        align-items:flex-end;
+        z-index:5;
+        position: absolute;
+    }
+
+    .encabezadosSeccionTodo1{
+        display: flex;
+        justify-content: space-around;
+        margin-top: -5.3125rem;
+        padding-top: 3.125rem;
+        padding-bottom: 1.25rem;
+        margin-right: 4.875rem;
+    }
+    .grilla{
+        display: grid;
+        grid-template-areas:
+        "rubia rubia2  negra negra2"
+        "rubia3 rubia4  negra3 negra4"
+        ;
+        grid-template-columns:  18.125rem 21.875rem 18.125rem 18.75rem                
+        ;
+        margin-left: 3.125rem;
+    }
+    .rubias{
+        grid-area:rubia;
+        padding: 0.5%;
+        margin: 0.625em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 17.1875em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        height: 24.0625em;
+        z-index:4; 
+    }
+    .rubias2{
+        grid-area:rubia2;
+        padding: 0.5%;
+        margin: 0.625em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 17.1875em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        height: 24.0625em;
+        z-index:4;
+    }
+    .rubias3{
+        grid-area:rubia3;
+        padding: 0.5%;
+        margin: 0.625em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 17.1875em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        height: 24.0625em;
+        z-index:3;
+    }
+    .rubias4{
+        grid-area:rubia4;
+        padding: 0.5%;
+        margin: 0.625em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 17.1875em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        height: 24.0625em;
+        z-index:3;
+    }
+    .negras{
+        grid-area:negra;
+        padding: 0.5%;
+        margin: 0.625em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 17.1875em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        height: 24.0625em;
+        z-index:4;
+    }
+    .negras2{
+        grid-area:negra2;
+        padding: 0.5%;
+        margin: 0.625em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 17.1875em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        height: 24.0625em;
+        z-index:4;
+    }       
+    .negras3{
+        grid-area:negra3;
+        padding: 0.5%;
+        margin: 0.625em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 17.1875em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        height: 24.0625em;
+        z-index:3;
+    }
+    .negras4{
+        grid-area:negra4;
+        padding: 0.5%;
+        margin: 0.625em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 17.1875em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        height: 24.0625em;
+        z-index:3;
+    }  
+
+    .encabezadosSeccionTodo2{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2.1875rem;
+        padding-bottom: 1.25rem; 
+        margin-right: 1.875rem;
+    }
+    .grilla2{
+        display: grid;
+        grid-template-areas:
+        "roja roja2  especial especial2"
+        "roja3 roja4  especial3 especial4"
+        ;
+        grid-template-columns: 18.125rem 21.875rem 18.125rem 18.75rem 
+        ;
+        margin-left: 3.125rem;
+
+    }
+    .rojas{
+        grid-area:roja;
+        padding: 0.5%;
+        margin: 0.625em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 17.1875em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        height: 24.0625em;
+        z-index:2;
+    }
+    .rojas2{
+        grid-area:roja2;
+        padding: 0.5%;
+        margin: 0.625em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 17.1875em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        height: 24.0625em;
+        z-index:2;
+    }
+    .rojas3{
+        grid-area:roja3;
+        padding: 0.5%;
+        margin: 0.625em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 17.1875em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        height: 24.0625em;
+        z-index:1;
+    }
+    .rojas4{
+        grid-area:roja4;
+        padding: 0.5%;
+        margin: 0.625em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 17.1875em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        height: 24.0625em;
+        z-index:1;
+    }
+    .especiales{
+        grid-area:especial;
+        padding: 0.5%;
+        margin: 0.625em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 17.1875em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        height: 24.0625em;
+        z-index:2;
+    }
+    .especiales2{
+        grid-area:especial2;
+        padding: 0.5%;
+        margin: 0.625em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 17.1875em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        height: 24.0625em;
+        z-index:2;
+    }
+    .especiales3{
+        grid-area:especial3;
+        padding: 0.5%;
+        margin: 0.625em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 17.1875em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        height: 24.0625em;
+        z-index:1;
+    }
+    .especiales4{
+        grid-area:especial4;
+        padding: 0.5%;
+        margin: 0.625em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 17.1875em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        height: 24.0625em;
+        z-index:1;
+    }
+    .accordionDirection{
+        width: 21.25rem;
+        background-color: white;
+        position: absolute;
+        left: -2.5rem;
+        right: 1.25rem;  
+    }
+    .accordionDirection2{
+        width: 37.5rem;
+        background-color: white;
+    }
+    .accordionDirection3{
+        width: 37.5rem;
+        background-color: white;
+        position: absolute;
+        right: 0px;  
+    } 
+    /*--------FIN CONOCE-NUESTROS-ESTILOS-------*
+
+    /*--------HISTORIA-------*/
+    .hubicacionCard{
+        padding-top: 1.0625em;
+    }
+    .textosHistoria{
+        padding: 0.5%;
+        margin: 1.5625em;
+        margin-left: 3em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 56.25em; 
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+    }
+    .tamañoTexto{
+        font-size: 1.5625rem;
+    }
+    .fondoCerveza{
+        background-image: url("imagenes/cervezaFondo.jpg");
+        width: 62.5rem; 
+        height: 37.5rem;
+        margin-left: 10.625rem;
+    }
+    /*--------FIN HISTORIA-------*/
+
+    /*--------CONTACTO-------*/
+    .contactoHubicacion{
+        margin-top: -11.875rem;
+        margin-bottom: -10.625rem;
+    }
+    .textosContacto{
+        padding: 0.5%;
+        margin: 1.5625em;
+        margin-left: 10em;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 62.5em;
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+        margin-bottom: -0.625em;
+    }
+    .negro{
+        color: black;
+    }
+    .tituloContacto{
+        font-size: 1.875rem;
+    }
+    .comentarios2{
+        margin: 1.25rem;
+        padding: 0.6%;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 25em;
+        background-color: #77ca37c7;   
+        margin-left: 30.00rem;
+    }
+    /*--------FIN CONTACTO-------*/
+
+    /*--------TIENDA-------*/
+    .flexCardsTienda{
+        display: flex;
+        justify-content: space-around;
+        margin: 0.625rem;
+    }
+    .cardTienda{
+        display: flex;
+        flex-direction: row;
+       width: 28.125em;
+       height: 16.875em;
+       border: solid green;
+       background-color: #78ca0d98;
+       border-radius: 20px;
+    }
+    .foto{
+        border: solid white;
+        height: 15em;
+        margin-top: 0.75em;
+        margin-left: 0.1875em;
+        border-radius: 50px;
+    }
+    .nombreProducto{
+        display: flex;
+        flex-direction: column;
+        height: 2.3125rem; 
+        width: 8.4375rem;
+        text-align: center;
+        margin-left: 1.4375rem;
+        color: black;
+        text-shadow: 1px 1px 2px black; 
+        border-radius: 20px;
+        margin-top: 0.3125rem;   
+        font-family: 'roboto';
+        font-weight: bold;
+    }
+    .infoTienda{   
+        height: 1.6875rem;
+        width: 6.0625rem;
+        color: black;
+        font-weight: bold;
+        margin-left: 2.5625rem;
+        margin-top: 1.875rem;
+        font-size: 0.9375rem;
+        border-radius: 2px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.445);
+    }
+    .cantidad{
+        margin-left: 3.625em;
+        margin-top: 2.8125em;
+    }
+    .inputSize{
+        width: 1.875em;
+    }
+    .comprar{
+        font-size: 150%;
+        margin-left: 0.9rem;
+        margin-top: 1.125rem;
+        letter-spacing: 3px;
+    }
+    /*--------FIN TIENDA-------*/
+
+    /*--------DUEÑOS Y TRABAJA CON NOSOTROS-------*/
+    .textoDueños{
+        padding: 0.5%;
+        margin: 1.5625rem;
+        margin-left: 14rem;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 56.25rem; 
+        height: 50rem;
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+    }
+    .fotoDueños{
+        width: 37.5em;
+        height: 26.875em;
+        margin-left: 0.4375em;
+        margin-top: 0.9375em;
+        border-radius: 10px;
+    }
+    .textoTrabajaConNosotros{
+        padding: 0.5%;
+        margin: 1.5625rem;
+        margin-left: 14rem;
+        font-weight: normal;
+        color:black;
+        border: 3px solid rgb(21, 150, 10);
+        border-radius: 15px;
+        width: 56.25rem; 
+        height: 82.5rem;
+        background-color: #77ca37c7; 
+        text-align: center; 
+        font-family: 'Noto Sans';
+    }
+    .imagenesFabricacion{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagenesFabricacion1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.625em;
+    }
+    .imagenesFabricacion2{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.625em;
+    }
+    /*--------FIN DUEÑOS Y TRABAJA CON NOSOTROS-------*/
+
+    /*--------FOOTER-------*/
+    .pieDePagina {
+        color: rgb(0, 138, 0); 
+        text-align: center;
+        -webkit-text-stroke: 0.5px black; 
+        font-size: 1.25rem;
+        width: auto; 
+        margin: 3.125rem 1.25rem 0rem 1.25rem;
+        font-weight: bold;
+        transform: translateY(-1.875rem);
+        background-image: linear-gradient(to bottom ,rgb(36, 62, 1), rgb(48, 82, 3), rgb(62, 104, 7), rgb(66, 128, 3) , rgb(89, 178, 0) , rgb(109, 220, 1), rgb(168, 255, 88), rgb(209, 255, 167));
+    }
+    .textosPieDePagina{
+         color:rgb(182, 207, 186); 
+         text-shadow: 1px 1px 2px black;
+      }
+    .linksPiePagina{
+         margin: 20px;
+         font-size: 1.875rem;
+         transform: translate(0px, -0.625rem);   
+    }
+    .colorLinksPiePagina{
+        color: rgb(0, 128, 67);
+        text-shadow: 1px 1px 2px black;
+    }
+    /*--------FIN FOOTER-------*/
+
+
+
+
+
+
+/*celular vertical*/
+@media (min-width: 320px) and (max-width: 480px) {
+body{
+    font-size: 12px;
+}
+.titulos{
+    margin-left: 2rem;
+}
+.logo2YEslogan2{
+    display: none;
+}
+.lineaSeparadora{
+    width: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+/*BURGER MENU*/
+.nav{
+    display: none; 
+}
+.dropdown{
+    transform: translate(-9.6875rem, -5.3125rem) scale(0.3);
+    display: block;
+    z-index: 10;
+    font-size: 7.5rem;
+    width: 20.9375rem; 
+    margin-left: 2.5rem;
+    margin-bottom: -9.6875rem;
+    padding: 2px;
+    border: solid green 10px;
+}  
+.dropdown-{
+    transform: scale(0.9);
+    font-size: 2.5rem;
+    width: 21.875rem;
+    color: rgb(27, 107, 19);
+    font-weight: bold;
+    transform: translate(9.375rem, 8.75rem);
+}
+.dropdown-menu{
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+}
+#dropdownMenu2{
+    color: green;
+    background-color: rgba(219, 250, 219, 0.849);
+    width: 19.6875rem;
+}
+/*FIN BURGER MENU*/
+/*INFORMACION CALIDAD*/
+.informacionCalidad{
+    flex-direction: column;
+    margin: 1.25rem;
+    margin-left: 1.875rem;
+    width: 18.75rem; 
+}
+.imgSize{ 
+    margin-top: 1.25rem;
+    width: 15.625rem;
+    height: 9.375rem; 
+    border-radius: 1.25rem;
+}
+.informacionCalidadTitulo{
+    font-size:0.8125rem;
+}
+.informacionCalidadTexto{
+    font-size: 0.8125rem;
+}
+/*FIN INFORMACION CALIDAD*/
+/*TIENDA INDEX*/
+.lineaDecorativa1{
+    display: none;
+}
+.lineaDecorativa2{
+    display: none; 
+}
+.tiendaIndex{
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-bottom: 10.625rem;
+}
+.tienda{
+    width: 17.625rem; 
+    margin-left: -1.375rem;
+}
+.imagenCervezaIndex{
+    width:17.15rem; 
+    height:15rem; 
+    margin-bottom: 0.75rem;
+    margin-top: 9.3rem;
+    margin-left: -1.25rem;
+}
+.botonTienda{
+    width:9.375rem ;
+    margin-left: 3.9rem;
+}
+/*FIN TIENDA INDEX*/
+/*MAS VENDIDO*/
+.lineaDecorativa3{
+    display: none;
+}
+.lineaDecorativa4{
+    display: none; 
+}
+.masVendido{
+    flex-direction: column;
+    margin: 1.5625rem;
+    margin-bottom: 17.6rem;
+    width: 20.5rem;
+    height: 33rem;
+    transform: translate(-0.60em, 1rem);
+}
+.fotoMasVendido{
+    width: 15em;
+    height: 15em;
+}
+.masVendidoTitulo{
+    font-size:150%;
+    margin-top: 0.125rem;
+}
+.masVendidoTexto{
+    font-size: 0.8125rem;
+    line-height : 1.25rem;
+    transform: translate(0px, -2.5em);
+}
+/*FIN MAS VENDIDO*/
+/*COMENTARIOS INDEX*/
+.lineaDecorativa5{
+    display: none;  
+}
+.lineaDecorativa6{
+    display: none; 
+}
+.comentariosHubicacion{
+    margin-top: 0.875rem;
+    margin-bottom: 3.5rem;
+    margin-left: -27.75rem;
+}
+.comentarios{
+    width: 20rem;
+}
+.textareaSize{
+    width: 18.75rem;
+}
+/*FIN COMENTARIOS INDEX*/
+
+/*ESTILOS*/
+.secciones{  
+    font-size: 1.875rem;
+    margin-left: 0.3125rem;
+    margin-top: -0.3125rem;
+}
+.card{
+    width: 20em; 
+    font-size: 0.9375rem;
+    margin-left: 1.25em;
+}
+.fotoEstilos{
+    width:17.5rem; 
+    height:14.5625rem;
+}
+/*FIN ESTILOS*/
+
+/*HISTORIA*/
+.textosHistoria{
+    margin-left: 1.15em; 
+    width: 27em;
+    height: 37.5rem;
+}
+.tamañoTexto{
+    font-size: 1rem;
+}
+.fondoCerveza{
+    width: 22rem; 
+    height: 40.5rem;
+    margin-left: 0.200rem;
+    margin-bottom: 3.125rem;
+}
+/*FIN HISTORIA*/
+/*CONTACTO*/
+.contactoHubicacion{
+    margin-top: 1.875rem;
+    margin-bottom: 4rem;
+}
+.textosContacto{
+    width: 29em;
+    margin-left: 0.4em;
+}
+.comentarios2{
+    width: 26em;
+    margin-left: 1.4rem;
+}
+.lineaDecorativa7{
+    display: none; 
+}
+.lineaDecorativa8{
+    display: none; 
+}
+/*FIN CONTACTO*/
+/*DUEÑOS Y TRABAJA CON NOSOTROS*/
+.textoDueños{
+    margin-left: 0.5rem;
+    width: 21.5rem;
+    height: 30rem;
+    margin-bottom: -0.625rem;
+}
+.textoDueños2{
+    font-size: 0.9375rem;
+}
+.fotoDueños{
+    width: 26.12em;
+    height: 18.14em;
+    margin-left: 0.05em;
+}
+
+.textoTrabajaConNosotros{
+    margin-left: 0.2rem;
+    width: 22rem; 
+    height: 55.5rem;
+}
+.fotoFabrica{
+    width: 10rem;
+    height: 10rem;
+}
+.imagenesFabricacion1{
+    margin-left: 0.9em;
+}
+.imagenesFabricacion2{
+    margin-left: 0.9em;
+}
+/*FIN DUEÑOS Y TRABAJA CON NOSOTROS*/
+
+/*TODO*/
+.encabezadosSeccionTodo1{
+    margin-top: -3.125rem;
+    margin-left: 4.575rem;
+}
+.encabezadosSeccionTodo2{
+    margin-left: 1rem;
+}
+.grilla{
+    display: grid;
+    grid-template-areas:
+    "rubia negra"
+    "rubia3 negra2"
+    "rubia2 negra3"
+    "rubia4 negra4"
+    ;
+    grid-template-columns:  11.200rem 21.875rem 18.125rem 18.75rem               
+    ;
+    margin-left: 0.125rem;
+}
+.grilla2{
+    display: grid;
+    grid-template-areas:
+    "roja especial"
+    "roja2 especial2"
+    "roja3 especial3"
+    "roja4 especial4"
+    ;
+    grid-template-columns: 11.200rem 21.875rem 18.125rem 18.75rem 
+    ;
+    margin-left: 0.125rem;
+}
+.cardTodo{
+    width: 10.3125rem;
+    height: 18.75rem;
+}
+.infoTodo2{
+    width: 10.3125rem;
+    height: 18.75rem;
+    transform: translate(0px, -1.6875rem);
+}
+.infoTiendaDisplay{
+    display: block;
+}
+.infoTodo{   
+    height: 5rem; 
+    width: 9.375rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left: 0.1875rem;
+    margin-top: 2.1875rem;
+    font-size: 1.625rem;
+    border-radius: 0.125rem;
+    text-align: center;
+    background-color: rgba(14, 78, 25, 0.596);
+}
+.accordion-item{
+    display: none;
+}
+.fotoEstilos2{
+    width:9.375rem; 
+    height:7.8125rem; 
+}
+/*FIN TODO*/
+
+
+/*TIENDA*/
+.flexCardsTienda{
+    width: 22.5rem;
+    margin-left: -0.0625rem;
+    ;
+} 
+.cardTienda{
+    width: 14.375rem; 
+    height: 8.125rem;
+    border: solid green 1px;
+    margin: 0px;
+}
+.foto{
+    border: none ;
+    margin-top: 1.5625rem;
+    border-radius: 1.5625rem;
+    height: 6.5em;
+    width: 5.25rem;
+}
+.nombreProducto{
+    height: 1.1563rem; 
+    width: 5rem;
+    margin-left: -0.125rem;
+    text-shadow: none;
+    border-radius: 0px;
+    font-size: 1.0313rem;
+    justify-content:flex-start ;
+}
+.infoTienda{   
+    height: 1.25rem; 
+    width: 4.0625rem;
+    margin-left: 0.9375rem;
+    margin-top: 2.0625rem;
+    font-size: 0.6875rem;
+}
+.cantidad{
+    display: none;
+}
+.comprar{
+    margin-left: -0.0625rem;
+    margin-top: 0.5313rem;
+    font-size: 0.625rem;
+    width: 5.625rem;
+}
+/*FIN TIENDA*/
+}
+
+
+
+
+
+/*tablet pequeña o celular horizontal*/
+@media (min-width: 481px) and (max-width: 767px) {
+body{
+    font-size: 15px;
+}
+.titulos{
+    width: 30.75rem;
+    margin-left: -1rem;
+}
+.logo2YEslogan2{
+    transform: scale(0.7);
+    margin-left: -3.125rem;
+}
+.lineaSeparadora{
+    width: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*NAV*/
+.dropdown{
+    display: none;
+}
+nav ul {
+    margin-left: 0rem;
+}
+/*FIN NAV*/
+
+/*INFORMACION CALIDAD*/
+.informacionCalidad{
+    margin: 1.25rem;
+    margin-left: 1.4rem;
+    width: 37rem;
+}
+.imgSize{ 
+    margin-top: 1.25rem;
+    width: 18.625rem;
+    height: 12.375rem;
+    border-radius: 1.25rem;
+    margin-right: 0.125rem;
+}
+.informacionCalidadTitulo{
+    font-size:0.9125rem;
+    letter-spacing: 0.125rem;
+}
+.informacionCalidadTexto{
+    font-size: 0.8125rem;
+}
+/*FIN INFORMACION CALIDAD*/
+/*TIENDA INDEX*/
+.lineaDecorativa1{
+    display: none;
+}
+.lineaDecorativa2{
+    display: none;
+}
+.tiendaIndex{
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-bottom: 11.25rem;
+    margin-top: 10.8125rem;
+}
+.tienda{
+    width: 17.625rem; 
+    margin-left: 0.60rem;
+}
+.imagenCervezaIndex{
+    width:20.15rem; 
+    height:18rem; 
+    margin-bottom: 0.75rem;
+    margin-top: 7rem;
+    margin-left: -1.25rem;
+}
+.botonTienda{
+    width:9.375rem ;
+    margin-left: 3.9rem;
+}
+/*FIN TIENDA INDEX*/
+/*MAS VENDIDO*/
+.lineaDecorativa3{
+    display: none;
+}
+.lineaDecorativa4{
+    display: none;
+}
+.masVendido{
+    flex-direction: row;
+    margin: 1.5625rem;
+    margin-bottom: 17.75rem;
+    width: 35.5rem;
+    height: 22rem;
+    transform: translate(0.6em, 1rem);
+}
+.fotoMasVendido{
+    width: 17em;
+    height: 17em;
+}
+.masVendidoTitulo{
+    font-size:150%;
+    margin-top: 3.125rem;
+}
+.masVendidoTexto{
+    font-size: 0.8125rem;
+    line-height : 1.25rem;
+    margin-top: 2.1875rem;
+    transform: translate(0px, -2.5em);
+}
+/*FIN MAS VENDIDO*/
+/*COMENTARIOS INDEX*/
+.lineaDecorativa5{
+    display: none;  
+}
+.lineaDecorativa6{
+    display: none;  
+}
+.comentariosHubicacion{
+    margin-top: 0.875rem;
+    margin-bottom: 3.875rem;
+    margin-left: -22.3rem;
+}
+.comentarios{
+    width: 27rem;
+}
+.textareaSize{
+    width: 25.75rem;
+}
+.tituloComentarios{
+    font-size: 2rem;
+}
+.sendTamaño{
+    width: 12.5rem;
+    height: 2.5rem;
+    font-size: 1.375rem;
+    margin-left: 0.375rem;
+}
+/*FIN COMENTARIOS INDEX*/
+
+/*ESTILOS*/
+.card{
+    width: 35em;
+    font-size: 0.9688rem;
+}
+.fotoEstilos{
+    width:19.5rem; 
+    height:16.5625rem;
+}
+/*FIN ESTILOS*/
+
+/*HISTORIA*/
+.textosHistoria{
+    margin-left: 2.30em; 
+    width: 37em;
+    height: 37.5rem;
+}
+.tamañoTexto{
+    font-size: 1.3rem;
+}
+.fondoCerveza{
+    width: 39rem; 
+    height: 41.5rem;
+    margin-left: 0.500rem;
+    margin-bottom: 3.125rem;
+}
+/*FIN HISTORIA*/
+/*CONTACTO*/
+.contactoHubicacion{
+    margin-top: 1.875rem;
+    margin-bottom: 4.3rem;
+}
+.textosContacto{
+    width: 35em;
+    margin-left: 4em;
+}
+.comentarios2{
+    width: 28.5em;
+    margin-left: 7rem;
+}
+.lineaDecorativa7{
+    display: none; 
+}
+.lineaDecorativa8{
+    display: none; 
+}
+.formContacto{
+    width: 18.75rem;
+}
+.formContacto3{
+    width: 11.875rem;
+    height: 2.5rem;
+    font-size: 1.375rem;
+    margin-left: 0.375rem; 
+}
+.checkboxContacto{
+    width: 1.5625rem;
+    height: 1.5625rem;
+}
+/*FIN CONTACTO*/
+/*DUEÑOS Y TRABAJA CON NOSOTROS*/
+.textoDueños{
+    margin-left: 4.6rem;
+    width: 30.5rem;
+    height: 39rem;
+    margin-bottom: -0.625rem;
+}
+.textoDueños2{
+    font-size: 1.3rem;
+}
+.fotoDueños{
+    width: 26.12em;
+    height: 18.14em;
+    margin-left: 0.05em;
+}
+
+.textoTrabajaConNosotros{
+    margin-left: 3.5rem;
+    width: 33rem; 
+    height: 67rem;
+}
+.fotoFabrica{
+    width: 15rem;
+    height: 15rem;
+}
+.imagenesFabricacion1{
+    margin-left: 1.2em;
+}
+.imagenesFabricacion2{
+    margin-left: 1.2em;
+}
+/*FIN DUEÑOS Y TRABAJA CON NOSOTROS*/
+
+/*TODO*/
+.secciones{
+    font-size: 2.5rem;
+    margin-top: 0.1875rem;
+}
+.encabezadosSeccionTodo1{
+    margin-left: 4.5rem;
+    margin-top: -1.875rem;
+}
+.encabezadosSeccionTodo2{
+    margin-left: 2rem;
+}
+.grilla{
+    display: grid;
+    grid-template-areas:
+    "rubia negra"
+    "rubia3 negra2"
+    "rubia2 negra3"
+    "rubia4 negra4"
+    ;
+    grid-template-columns:  18.200rem 21.875rem 18.125rem 18.75rem               
+    ;
+    margin-left: 2.7rem;
+}
+.grilla2{
+    display: grid;
+    grid-template-areas:
+    "roja especial"
+    "roja2 especial2"
+    "roja3 especial3"
+    "roja4 especial4"
+    ;
+    grid-template-columns: 18.200rem 21.875rem 18.125rem 18.75rem 
+    ;
+    margin-left: 2.7rem;
+}
+.cardTodo{
+    width: 15.3125rem;
+    height: 21.75rem;
+}
+.infoTodo2{
+    width: 10.3125rem;
+    height: 18.75rem;
+    transform: translate(0px, -0.08rem);
+}
+.infoTiendaDisplay{
+    display: block;
+}
+.infoTodo{   
+    height: 5rem; 
+    width: 9.375rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left: 2.7rem;
+    margin-top: 1rem;
+    font-size: 1.625rem;
+    border-radius: 0.125rem;
+    text-align: center;
+    background-color: rgba(14, 78, 25, 0.596);
+}
+.accordion-item{
+    display: none;
+}
+.fotoEstilos2{
+    width:13.375rem; 
+    height:11.8125rem; 
+}
+/*FIN TODO*/
+
+
+/*TIENDA*/
+.flexCardsTienda{
+    width: 37.5rem;
+    margin-left: 1.2rem;
+    ;
+} 
+.cardTienda{
+    width: 25.375rem;
+    height: 12.125rem;
+    border: solid green 1px;
+    margin: 0.625rem;
+}
+.foto{
+    border: none ;
+    margin-top: 1.7rem;
+    border-radius: 1.5625rem;
+    height: 9.5em;
+    width: 8.25rem;
+}
+.nombreProducto{
+    height: 1.1563rem; 
+    width: 8rem;
+    margin-left: 0.4rem;
+    text-shadow: none;
+    border-radius: 0px;
+    font-size: 1.5rem;
+    justify-content:flex-start ;
+}
+.infoTienda{   
+    height: 1.25rem; 
+    width: 4.0625rem;
+    margin-left: 2.9375rem;
+    margin-top: 2.5rem;
+    font-size: 0.6875rem;
+}
+.cantidad{
+    margin-left: 3.2em;
+    margin-top: 1em;
+}
+.comprar{
+    margin-left: 1.0625rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    width: 7.5rem;
+}
+/*FIN TIENDA*/
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1280px) {
+body{
+    font-size: 16px;
+}
+.titulos{
+    width: 30.75rem;
+    margin-left: 2rem;
+}
+.logo2YEslogan2{
+    margin-left: 8.5rem;
+}
+.lineaSeparadora{
+    width: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*NAV*/
+.dropdown{
+    display: none;
+}
+nav ul {
+    margin-left: 0rem;
+}
+/*FIN NAV*/
+
+/*INFORMACION CALIDAD*/
+.informacionCalidad{
+    margin: 1.25rem;
+    margin-left: 4.5rem;
+    width: 55rem;
+}
+.imgSize{ 
+    margin-top: 1.25rem;
+    width: 34.625rem;
+    height: 22.375rem;
+    border-radius: 1.25rem;
+    margin-right: 0.125rem;
+}
+.informacionCalidadTitulo{
+    font-size: 1.2rem;
+    letter-spacing: 0.125rem;
+}
+.informacionCalidadTexto{
+    font-size: 0.9rem;
+}
+/*FIN INFORMACION CALIDAD*/
+/*TIENDA INDEX*/
+.lineaDecorativa1{
+    transform: translate(-25.375rem, 280%) rotate(90deg) scale(0.65);   
+}
+.lineaDecorativa2{
+    transform: translate(33rem, -163%) rotate(270deg) scale(0.65) scaleX(-1);   
+}
+.tiendaHubicacion{
+    margin-top: -23.2rem;
+    margin-bottom: -9.375rem;
+}
+.tiendaIndex{
+    flex-direction: row;
+    margin-left: 21rem;
+    margin-bottom: -3.125rem;
+    margin-top: 10.8125rem;
+}
+.tienda{
+    width: 17.625rem; 
+    margin-left: 6rem;
+}
+.imagenCervezaIndex{
+    width:24.15rem; 
+    height:22rem; 
+    margin-bottom: 0.75rem;
+    margin-top: 7rem;
+    margin-left: -13.25rem;
+}
+.botonTienda{
+    width:9.375rem ;
+    margin-left: 3.9rem;
+}
+/*FIN TIENDA INDEX*/
+/*MAS VENDIDO*/
+.lineaDecorativa3{
+    transform: translate(-21.375rem, 64%) rotate(90deg) scale(0.47);   
+}
+.lineaDecorativa4{
+    transform: translate(29.700rem, -170%) rotate(270deg) scale(0.47) scaleX(-1);   
+}
+.masVendido{
+    flex-direction: row;
+    margin: 1.5625rem;
+    margin-bottom: -10rem;
+    width: 42.5rem;
+    height: 25rem;
+    transform: translate(9.5em, -12.8rem);
+}
+.fotoMasVendido{
+    width: 20em;
+    height: 20em;
+}
+.masVendidoTitulo{
+    font-size:180%;
+    margin-top: 3.125rem;
+}
+.masVendidoTexto{
+    font-size: 0.9125rem;
+    line-height : 1.25rem;
+    margin-top: 2.1875rem;
+    transform: translate(0px, -2.5em);
+}
+/*FIN MAS VENDIDO*/
+/*COMENTARIOS INDEX*/
+.lineaDecorativa5{
+    transform: translate(-5rem, 220%) rotate(90deg) scale(0.73);   
+}
+.lineaDecorativa6{
+    transform: translate(33.5rem, -215%) rotate(270deg) scale(0.73) scaleX(-1);    
+}
+.comentariosHubicacion{
+    margin-top: -13.5rem;
+    margin-bottom: -12.875rem;
+    margin-left: -10.3rem;
+}
+.comentarios{
+    width: 27rem;
+}
+.textareaSize{
+    width: 25.75rem;
+}
+.tituloComentarios{
+    font-size: 2rem;
+}
+.sendTamaño{
+    width: 12rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    margin-left: 0.375rem;
+}
+/*FIN COMENTARIOS INDEX*/
+
+/*ESTILOS*/
+.card{
+    width: 30em;
+    height: auto;
+    font-size: 1.5rem;
+}
+.fotoEstilos{
+    width:21.5rem; 
+    height:18.5625rem;
+}
+/*FIN ESTILOS*/
+
+/*HISTORIA*/
+.textosHistoria{
+    margin-left: 2.30em; 
+    width: 45em;
+    height: 28.5rem;
+}
+.tamañoTexto{
+    font-size: 1.3rem;
+}
+.fondoCerveza{
+    width: 50rem; 
+    height: 33.5rem;
+    margin-left: 6.800rem;
+    margin-bottom: 3.125rem;
+}
+/*FIN HISTORIA*/
+/*CONTACTO*/
+.contactoHubicacion{
+    margin-top: 1.875rem;
+    margin-bottom: 0rem;
+}
+.textosContacto{
+    width: 42em;
+    margin-left: 11em;
+}
+.comentarios2{
+    width: 28.5em;
+    margin-left: 17.2rem;
+}
+.lineaDecorativa7{
+    display: none; 
+}
+.lineaDecorativa8{
+    display: none; 
+}
+.formContacto{
+    width: 18.75rem;
+}
+.formContacto3{
+    width: 11.875rem;
+    height: 2.5rem;
+    font-size: 1.375rem;
+    margin-left: 0.375rem; 
+}
+.checkboxContacto{
+    width: 1.5625rem;
+    height: 1.5625rem;
+}
+/*FIN CONTACTO*/
+/*DUEÑOS Y TRABAJA CON NOSOTROS*/
+.textoDueños{
+    margin-left: 12rem;
+    width: 40.5rem;
+    height: 37rem;
+    margin-bottom: -0.625rem;
+}
+.textoDueños2{
+    font-size: 1.3rem;
+}
+.fotoDueños{
+    width: 28.12em;
+    height: 20.14em;
+    margin-left: 0.05em;
+}
+
+.textoTrabajaConNosotros{
+    margin-left: 12rem;
+    width: 40rem; 
+    height: 74rem;
+}
+.fotoFabrica{
+    width: 17rem;
+    height: 17rem;
+}
+.imagenesFabricacion1{
+    margin-left: 2.5em;
+}
+.imagenesFabricacion2{
+    margin-left: 2.5em;
+}
+/*FIN DUEÑOS Y TRABAJA CON NOSOTROS*/
+/*TODO*/
+.encabezadosSeccionTodo1{
+    margin-top: -3.125rem;
+    margin-left: 4.375rem;
+    margin-top: -5.625rem;
+}
+.encabezadosSeccionTodo2{
+    margin-left: 4rem;
+    margin-top: -3.625rem;
+}
+.infoTiendaDisplay{
+    display: none;
+}
+.accordion-item{
+    width: 13.7em;
+}
+.tituloTodo{
+    font-size: 1.375rem;
+}
+.fotoEstilos2{
+    width:10.5rem; 
+    height:10rem; 
+}
+.grilla{
+    grid-template-columns:  15.125rem 17.5rem 15.125rem 18.75rem                
+    ;
+    margin-left: 0.25rem;
+}
+.grilla2{
+    grid-template-columns: 15.125rem 17.5rem 15.125rem 18.75rem 
+    ;
+    margin-left: 0.25rem;
+}
+.cardTodo{
+    width: 14.3125rem;
+    height: 19.75rem;
+}
+.accordionDirection{
+    left: -1.5rem;
+    margin-top: 0.3125rem;
+}
+.accordionDirection2{
+    width: 30.5rem; 
+    margin-top: 0.9375rem;
+}f
+/*FIN TODO*/
+/*TIENDA*/
+.flexCardsTienda{
+    width: 50.5rem;
+    margin-left: 6rem;
+    ;
+} 
+.cardTienda{
+    width: 30.375rem;
+    height: 16.125rem;
+    margin: 0.625rem;
+}
+.foto{
+    border: none ;
+    margin-top: 1.7rem;
+    border-radius: 1.5625rem;
+    height: 13.5em;
+    width: 12.25rem;
+}
+.nombreProducto{
+    height: 1.1563rem; 
+    width: 9rem;
+    margin-left: 0.9rem;
+    text-shadow: 1px 1px 2px black; 
+    font-size: 1.8rem;
+    justify-content:flex-start ;
+}
+.infoTienda{   
+    height: 1.6rem; 
+    width: 5.0625rem;
+    margin-left: 3.2rem;
+    margin-top: 4rem;
+    font-size: 0.7875rem;
+}
+.cantidad{
+    margin-left: 3.6em;
+    margin-top: 1.8em;
+}
+.comprar{
+    margin-left: 1.3rem;
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    width: 8.85rem;
+}
+/*FIN TIENDA*/
+}
